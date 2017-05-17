@@ -1,0 +1,30 @@
+
+@mixin absolutePos{
+  position: absolute;
+  top:0;
+  left: 0;
+  right:0;
+  bottom: 0;
+}
+@mixin bg-img{
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+}
+@mixin bg-img-overlay{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  z-index: -2;
+  background-image: url("../img/main-img-overlay.jpg");
+  background-size: cover;
+  opacity: 0.8;
+}

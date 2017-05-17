@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url("../Roboto-Black/fonts/Roboto-Black.eot");
+  src: url("../Roboto-Black/fonts/Roboto-Black.eot#iefix") format("embedded-opentype"), url("../Roboto-Black/fonts/Roboto-Black.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
